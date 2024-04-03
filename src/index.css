@@ -1,0 +1,67 @@
+:root {
+    --text-color: #fafafa;
+    --bullet-color: #53c1de;
+    --background: #3f3f46;
+    --dashboard-background: #27272a;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: var(--background);
+    color: var(--text-color);
+}
+
+li {
+    color: var(--bullet-color);
+}
+
+p {
+    color: var(--text-color);
+}
+
+/* DashBoard */
+.DashBoard {
+    display: flex;
+    background: var(--dashboard-background);
+    padding: 10px;
+}
+
+.Title {
+    font-size: 25px;
+    color: var(--bullet-color);
+    margin-right: auto;
+    padding: 5px;
+}
+
+.Project-1 {
+    padding: 10px;
+}
+
+/*Content*/
+
+.Fun-Facts {
+    margin-left: 20px;
+}
+
+ul {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/*Hidde Icon*/
+
+.ReactIcon {
+    position: absolute;
+    z-index: -1;
+    top: -20%;
+    right: -40%;
+
+}
+
+.ReactIcon__svg {
+    width:"600px";
+    height:"600px";
+
+}

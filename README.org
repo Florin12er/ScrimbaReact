@@ -1,0 +1,2 @@
+* In this video I an trying to rewrite my site that I write in a scrimba course to work with modern react.
+** so have pick up some pocporn and have fun.
